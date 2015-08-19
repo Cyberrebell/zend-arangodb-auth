@@ -1,0 +1,34 @@
+{
+    "name": "cyberrebell/zend-arangodb-auth",
+    "description": "provides auth and acl for zendframework using arangodb",
+    "authors": [
+        {
+            "name": "Cyberrebell",
+            "email": "chainsaw75@web.de"
+        }
+    ],
+    "type": "library",
+    "keywords": [
+        "arango",
+        "php",
+        "odm",
+        "db",
+        "nosql",
+        "zend",
+        "zendframework"
+    ],
+    "license": "LGPL-3.0",
+    "require": {
+        "php": ">=5.6.9"
+    },
+    "require-dev": {
+        "zendframework/zend-authentication": "*",
+        "zendframework/zend-permissions-acl": "*",
+        "cyberrebell/arango-odm": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZendArangodbAuth\\": "library/"
+        }
+    }
+}
